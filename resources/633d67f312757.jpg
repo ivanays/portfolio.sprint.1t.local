@@ -1,0 +1,20 @@
+<!DOCTYPE html><html><head><base href=/ ><title>1Т Спринт</title><meta charset=utf-8><meta name=description content="1Т Спринт – онлайн-курсы цифровых профессий"><meta name=format-detection content="telephone=no"><meta name=msapplication-tap-highlight content=no><meta name=google value=notranslate><meta name=viewport content="user-scalable=no,initial-scale=1,maximum-scale=1,minimum-scale=1,width=device-width"><meta property=og:image content=/images/cover.jpg><meta property=vk:image content=/images/cover.jpg><meta property=fb:image content=/images/cover.jpg><meta property=twitter:image content=/images/cover.jpg><meta property=og:title content="1Т Спринт"><meta property=og:description content="1Т Спринт – онлайн-курсы цифровых профессий"><meta property=og:type content=page><meta property=og:url content=https://sprint.1t.ru><meta property=og:site_name content="1Т Спринт"><link id=favicon rel=icon sizes=120x120 type=image/svg+xml href=icons/favicon.svg><link href=https://vjs.zencdn.net/8.6.0/video-js.css rel=stylesheet><script src=https://cdnjs.cloudflare.com/ajax/libs/blueimp-md5/2.18.0/js/md5.min.js></script><script src=https://cdnjs.cloudflare.com/ajax/libs/crypto-js/3.1.9-1/crypto-js.js></script><script src=https://sprint.1t.ru/api/enc.js></script><script src=https://apis.google.com/js/api.js></script><script>(function(m,e,t,r,i,k,a){m[i]=m[i]||function(){(m[i].a=m[i].a||[]).push(arguments)};
+        m[i].l=1*new Date();
+        for (var j = 0; j < document.scripts.length; j++) {if (document.scripts[j].src === r) { return; }}
+        k=e.createElement(t),a=e.getElementsByTagName(t)[0],k.async=1,k.src=r,a.parentNode.insertBefore(k,a)})
+      (window, document, "script", "https://mc.yandex.ru/metrika/tag.js", "ym");
+
+      ym(89532148, "init", {
+        clickmap:true,
+        trackLinks:true,
+        accurateTrackBounce:true,
+        webvisor:true
+      });</script><noscript><div><img src=https://mc.yandex.ru/watch/89532148 style="position:absolute; left:-9999px;" alt=""></div></noscript><script>var _tmr = window._tmr || (window._tmr = []);
+      _tmr.push({id: "3317481", type: "pageView", start: (new Date()).getTime()});
+      (function (d, w, id) {
+        if (d.getElementById(id)) return;
+        var ts = d.createElement("script"); ts.type = "text/javascript"; ts.async = true; ts.id = id;
+        ts.src = "https://top-fwz1.mail.ru/js/code.js";
+        var f = function () {var s = d.getElementsByTagName("script")[0]; s.parentNode.insertBefore(ts, s);};
+        if (w.opera == "[object Opera]") { d.addEventListener("DOMContentLoaded", f, false); } else { f(); }
+      })(document, window, "tmr-code");</script><noscript><div><img src="https://top-fwz1.mail.ru/counter?id=3317481;js=na" style=position:absolute;left:-9999px; alt=Top.Mail.Ru></div></noscript><script defer src=/js/vendor.81e20ea9.js></script><script defer src=/js/app.8e33d1da.js></script><link href=/css/vendor.a5b695a7.css rel=stylesheet><link href=/css/app.fd22890f.css rel=stylesheet></head><body><div id=q-app></div></body></html>

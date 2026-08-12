@@ -1,0 +1,306 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pet Doc</title>
+    <link rel="stylesheet" href="/css/style.css">
+    <script defer src="/js/popup.js"></script>
+</head>
+
+<body>
+    <header class="header lock-padding">
+        <div class="container">
+            <div class="header__inner">
+                <div class="header__logo">
+                    <div class="logo">
+                        <a href="index.html" class="logo__link link">
+                            <img src="/img/logo-header.png" alt="Лого" class="logo__img">
+                        </a>
+                    </div>
+                </div>
+                <div class="header__main">
+                    <div class="header__inner">
+                        <a href="#popup-burger" class="header__burger-link popup-link">
+                            <span class="header__burger-span"></span>
+                        </a>
+                        <div class="header__left">
+                            <nav class="menu-header">
+                                <ul class="menu-header__list">
+                                    <li class="menu-header__item  menu-header__item-none"><a href="#"
+                                            class="menu-header__link link">Настройки</a>
+                                    </li>
+                                    <li class="menu-header__item"><a href="personal.html"
+                                            class="menu-header__link link">Город</a>
+                                    </li>
+                                </ul>
+                            </nav>
+                        </div>
+                        <div class="header__center">
+                            <form action="#" method="post" class="form-search">
+                                <input type="text" class="form-search__input" placeholder="Поиск">
+                                <input type="button" class="form-search__btn link">
+                            </form>
+                        </div>
+                        <div class="header__right">
+                            <nav class="menu-header">
+                                <ul class="menu-header__list">
+                                    <li class="menu-header__item  menu-header__item-none">
+                                        <a href="#" class="menu-header__link link">Подсказки</a>
+                                    </li>
+                                    <li class="menu-header__item  menu-header__item-none">
+                                        <a href="#" class="menu-header__link link">Статьи</a>
+                                    </li>
+                                    <li class="menu-header__item menu-header__item-none">
+                                        <a href="#" class="menu-header__link link">Помощь</a>
+                                    </li>
+                                </ul>
+                            </nav>
+                        </div>
+                    </div>
+                </div>
+                <div class="header__exit">
+                    <nav class="menu-header">
+                        <ul class="menu-header__list">
+                            <li class="menu-header__item"><a id="logout" href="#"
+                                    class="menu-header__link link">Выход</a></li>
+                        </ul>
+                    </nav>
+                </div>
+            </div>
+        </div>
+    </header>
+    <main class="main lock-padding">
+        <section class="personal">
+            <div class="container">
+                <div class="personal__body">
+                    <div class="personal__inner">
+                        <div class="personal__profile">
+                            <div class="personal__avatar">
+                                <img src="/img/avatarka.png" alt="Аватар" class="personal__img" id="user-avatar">
+                            </div>
+                            <div class="personal__info">
+                                <h3 class="personal__login" id="user-login"></h3>
+                                <p class="personal__id"><span id="user-id"></span></p>
+                            </div>
+                        </div>
+                        <div class="personal__block-title">
+                            <h2 class="personal__title">Личный&nbsp;кабинет</h2>
+                        </div>
+                        <div class=" buttons__links">
+                            <div class=" buttons__link">
+                                <a href="#" class=" buttons__link buttons__link-profile">Профиль</a>
+                            </div>
+                            <div class=" buttons__link">
+                                <a href="#" class=" buttons__link buttons__link-volonter">Я волонтёр</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="content-personal">
+            <div class="container">
+                <div class="content-personal__top">
+                    <div class="content-personal__top-inner">
+                        <div class="content-personal__reminder">
+                            <div class="reminder block">
+                                <div class="reminder__inner">
+                                    <div class="reminder__body">
+                                        <h3 class="reminder__suptitle suptitle">Напоминалка</h3>
+                                        <ul class="reminder__list">
+                                            <li class="reminder__item">
+                                                <a href="" class="reminder__link reminder__link-block">
+                                                    <span class="reminder__span reminder__span-topic">Запись к врачу</span>
+                                                    <span class="reminder__span reminder__span-time">12.06.2023 14:20</span>
+                                                </a>
+                                                <a href="" class="reminder__link reminder__link-del">
+                                                    <span class="reminder__span reminder__span-del"></span>
+                                                </a>
+                                            </li>
+                                            <li class="reminder__item">
+                                                <a href="" class="reminder__link reminder__link-block">
+                                                    <span class="reminder__span reminder__span-topic">Запись к врачу</span>
+                                                    <span class="reminder__span reminder__span-time">21.06.2023 16:30</span>
+                                                </a>
+                                                <a href="" class="reminder__link reminder__link-del">
+                                                    <span class="reminder__span reminder__span-del"></span>
+                                                </a>
+                                            </li>
+                                        </ul>
+                                    </div>
+                                    <div class=" buttons__links">
+                                        <div class=" buttons__link">
+                                            <a href="#" class=" buttons__link buttons__link-add">Добавить</a>
+                                        </div>
+                                        <div class=" buttons__link">
+                                            <a href="#" class=" buttons__link buttons__link-preview">Показать</a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="content-personal__advert">
+                            <div class="advert-add block">
+                                <div class="advert-add__inner">
+                                    <div class="advert-add__body">
+                                        <h3 class="advert-add__suptitle suptitle">Объявление</h3>
+                                        <div class="advert-add__inner-image">
+                                            <div class="advert-add__image">
+                                                <img src="/img/avert-img.png" alt="Питомец" class="advert-add__img">
+                                            </div>
+                                            <div class="advert-add__content">
+                                                <div class="advert-add__body">
+                                                    <h4 class="advert-add__title title">Продам:</h4>
+                                                    <p class="advert-add__text text">
+                                                        Продам щенят. Порода русская борзая 1,5 месяца, окрас белый. Клеймо стоит. Родители победители выставок 2020 и 2021
+                                                        года
+                                                    </p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class=" buttons__links">
+                                        <div class=" buttons__link">
+                                            <a href="#" class=" buttons__link buttons__link-add">Добавить</a>
+                                        </div>
+                                        <div class=" buttons__link">
+                                            <a href="#" class=" buttons__link buttons__link-preview">Показать</a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="content-personal__mypets">
+                    <div class="mypets block">
+                        <h3 class="mypets__suptitle suptitle">Мои питомцы</h3>
+                        <div class="mypets__body">
+                            <div class="mypets__inner">
+                                <div class="mypets__list">
+                                    <div class="mypets__item mypets__item-1">
+                                        <a href="#" class="mypets__link">
+                                            <img src="/img/avatar-pet.png" alt="Аватар" class="mypets__avatar">
+                                            <div class="mypets__info">
+                                                <h4 class="mypets__nic">Бобик</h4>
+                                                <p class="mypets__id">ID: 32684</p>
+                                            </div>
+                                        </a>
+                                    </div>
+                                    <div class="mypets__item mypets__item-2">
+                                        <a href="#" class="mypets__link">
+                                            <img src="/img/avatar-pet.png" alt="Аватар" class="mypets__avatar">
+                                            <div class="mypets__info">
+                                                <h4 class="mypets__nic">Шарик</h4>
+                                                <p class="mypets__id">ID: 32686</p>
+                                            </div>
+                                        </a>
+                                    </div>
+                                    <div class="mypets__item mypets__item-3">
+                                        <a href="#" class="mypets__link">
+                                            <img src="/img/avatar-pet.png" alt="Аватар" class="mypets__avatar">
+                                            <div class="mypets__info">
+                                                <h4 class="mypets__nic">Тузик</h4>
+                                                <p class="mypets__id">ID: 326884</p>
+                                            </div>
+                                        </a>
+                                    </div>
+                                </div>
+                                <div class=" buttons__links">
+                                    <div class=" buttons__link">
+                                        <a href="#" class=" buttons__link buttons__link-add">Добавить</a>
+                                    </div>
+                                    <div class=" buttons__link">
+                                        <a href="#" class=" buttons__link buttons__link-preview">Показать</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main> 
+    <footer class="footer lock-padding">
+        <div class="container">
+            <div class="footer__inner">
+                <div class="footer__left">
+                    <div class="logo">
+                        <a href="#" class="logo__link link">
+                            <img src="/img/logo-footer.png" alt="Лого" class="logo__img">
+                        </a>
+                    </div>
+                </div>
+                <div class="footer__center">
+                    <p class="footer__copy">&#169 2022 <span class="footer__span">PetDoc. Все права защищены.</span></p>
+                </div>
+                <div class="footer__right">
+                    <nav class="menu-footer">
+                        <ul class="menu-footer__list">
+                            <li class="menu-footer__item">
+                                <a href="#" class="menu-footer__link link">
+                                    <img src="/img/icon-telegram.png" alt="Telegram"
+                                        class="menu-footer__img menu-footer__img-telegram">
+                                </a>
+                            </li>
+                            <li class="menu-footer__item">
+                                <a href="#" class="menu-footer__link link">
+                                    <img src="/img/icon-vk.png" alt="VK" class="menu-footer__img menu-footer__img-vk">
+                                </a>
+                            </li>
+                            <li class="menu-footer__item">
+                                <a href="#" class="menu-footer__link link">
+                                    <img src="/img/icon-mail.png" alt="E-mail"
+                                        class="menu-footer__img menu-footer__img-mail">
+                                </a>
+                            </li>
+                        </ul>
+                    </nav>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <div id="popup-burger" class="popup-entrance">
+        <div class="popup-entrance__body popup-entrance__body-popup-burger">
+            <div class="popup-entrance__content popup-entrance__content-popup-burger">
+                <div class="popup-entrance__header-popup-burger">
+                    <div class="popup-entrance__close-popup-burger">
+                        <a href="#" class="popup-entrance__close-link-popup-burger close-popup"><span
+                                class="popup-entrance__close-icon-popup-burger"></span></a>
+                    </div>
+                </div>
+                <div class="popup-entrance__menu-header-popup">
+                    <nav class="menu-header-popup">
+                        <ul class="menu-header-popup__list">
+                            <li class="menu-header-popup__item">
+                                <a href="#" class="menu-header-popup__link link">Подсказки</a>
+                            </li>
+                            <li class="menu-header-popup__item">
+                                <a href="#" class="menu-header-popup__link link">Статьи</a>
+                            </li>
+                            <li class="menu-header-popup__item">
+                                <a href="#" class="menu-header-popup__link link">Помощь</a>
+                            </li>
+                            <li class="menu-header-popup__item">
+                                <a href="#" class="menu-header-popup__link link">Настройки</a>
+                            </li>
+                        </ul>
+                    </nav>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+    <script src="https://www.gstatic.com/firebasejs/9.12.1/firebase-app-compat.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/9.12.1/firebase-firestore-compat.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/9.12.1/firebase-auth-compat.js"></script>
+    <script src="/js/fb-config.js"></script>
+    <!-- <script src="/js/logout.js"></script> -->
+    <script src="/js/account.js"></script>
+    
+</body>
+
+</html>

@@ -1,0 +1,170 @@
+@charset "UTF-8";
+
+* {
+    padding: 0;
+    margin: 0;
+    border: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background: #fff;
+    font-family: "Arial", sans-serif;
+    font-style: normal;
+    letter-spacing: 20%;
+    overflow: none;
+}
+
+.wrapper {
+    /* border: 1px solid red; */
+    max-width: 60%;
+    min-height: calc(100vh - 35px);
+    margin: 0 auto;
+}
+
+.pet{
+    padding: 50px;
+    margin-bottom: 30px;
+}
+
+.title {
+    font-weight: 700;
+    color: #333;
+}
+
+.pet__title {
+    text-align: center;
+    font-size: 35px;
+    /* margin: 50px 0; */
+}
+
+.button {
+    background-color: #777;
+    color: #fff;
+    font-size: 20px;
+    cursor: pointer;
+}
+
+.pet {
+    position: relative;
+    padding: 0;
+}
+
+.pet__exit {
+    position: absolute;
+    text-decoration: none;
+    display: inline-block;
+    width: 100px;
+    height: 40px;
+    top: 50px;
+    right: 50px;
+    text-align: center;
+    line-height: 37px;
+}
+
+.pet__inner {
+    width: 100%;
+    min-height: calc(100vh - 33px);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.pet__tasks {
+}
+
+.pet__container {
+    border: 1px solid #333;
+    min-height: 400px;
+    padding: 20px;
+    margin-bottom: 20px;
+    overflow: scroll;
+}
+#pet-container.onlyopen li.completed {
+    display: none;
+}
+
+#pet-container.onlycompleted li.inprogress {
+    display: none;
+}
+
+.item {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 10px;
+    list-style: none;
+}
+
+.completed {
+    text-decoration: line-through;
+    color: red;
+}
+/* li.completed p {
+    text-decoration: line-through;
+    color: blue;
+} */
+
+
+.pet__task {
+    margin-right: 15px;
+}
+.pet__task:last-child {
+    margin-right: 0px;
+}
+
+
+.pet__task-button {
+    width: 25px;
+    height: 25px;
+    background-color: #777;
+}
+
+.pet__button {
+    width: 150px;
+    height: 40px;
+    text-align: center;
+}
+
+.form {
+    width: 450px;
+    padding: 50px  0;
+}
+
+.form__title {
+    text-align: center;
+    font-size: 32px;
+    margin-bottom: 30px;
+}
+
+.form__item {
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.form__item-center {
+    justify-content: center;
+}
+
+.form__button {
+    width: 300px;
+    height: 40px;
+}
+
+.form__label {
+    font-size: 24px;
+}
+
+.form__input {
+    border: 1px solid #333;
+    font-size: 18px;
+    width: 320px;
+    height: 40px;
+    padding: 10px;
+}
+
+.form__link {
+    text-decoration: none;
+}

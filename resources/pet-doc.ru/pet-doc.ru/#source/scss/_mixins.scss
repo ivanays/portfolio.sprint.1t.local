@@ -1,0 +1,15 @@
+// Миксины
+@mixin text($ff, $fw, $fz, $lh, $ls, $c) {
+  font-family: $ff;
+  font-weight: $fw;
+  font-size: $fz;
+  line-height: $lh;
+  letter-spacing: $ls;  
+  color: $c;
+}
+@mixin text-lite($ff, $fw, $fz, $c) {
+  font-family: $ff;
+  font-weight: $fw;
+  font-size: $fz;  
+  color: $c;
+}

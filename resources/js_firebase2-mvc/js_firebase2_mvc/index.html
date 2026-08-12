@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>work7_4</title>
+    <link rel="stylesheet" href="css/style.css">
+    <script src="https://www.gstatic.com/firebasejs/9.12.1/firebase-app-compat.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/9.12.1/firebase-firestore-compat.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/9.12.1/firebase-auth-compat.js"></script>
+    <script type="module" src="js_mvc/app.js"></script>
+</head>
+
+<body>
+    <div class="wrapper">
+        <section class="pet">
+            <div class="pet__inner">
+                <div class="pet__content">
+                    <h1 class="pet__title title">Pet DOC</h1>
+                    <form class="pet__form form" id="signup-form">
+                        <h2 class="form__title title">Регистрация</h2>
+                        <ul class="form__list">
+                            <li class="form__item item">
+                                <label class="form__label" for="signup-email">Почта</label>
+                                <input class="form__input" type="email" id="signup-email">
+                            </li>
+                            <li class="form__item item">
+                                <label class="form__label" for="signup-password">Пароль</label>
+                                <input class="form__input" type="password" id="signup-password">
+                            </li>
+                            <li class="form__item form__item-center item">
+                                <a href="./login.html" class="form__link">Вход</a>
+                            </li>
+                            <li class="form__item form__item-center item">
+                                <button class="form__button button" type="submit"
+                                    id="signup-button">Зарегистрироваться</button>
+                            </li>
+                        </ul>
+                    </form>
+                </div>
+            </div>
+        </section>
+    </div>
+
+</body>
+
+</html>

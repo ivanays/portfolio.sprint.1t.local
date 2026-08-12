@@ -1,0 +1,8 @@
+// Шаблоны
+
+%text-body {
+  @include text-lite($ff-CVF, $fw-400, $fz-13, $c-1-43291F);
+}
+%text-placeholder {
+    @include text-lite($ff-CVF, $fw-700, $fz-13, $c-1-43291F);
+}

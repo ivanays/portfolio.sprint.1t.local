@@ -1,0 +1,8 @@
+@font-face {
+  font-family: 'Comfortaa-VariableFont_wght';
+  src: url(./Comfortaa-VariableFont_wght.eot);
+  src: url(./Comfortaa-VariableFont_wght.eot?#iefix) format('embedded-opentype'),
+       url(./Comfortaa-VariableFont_wght.otf) format('otf'),
+       url(./Comfortaa-VariableFont_wght.woff) format('woff'),
+       url(./Comfortaa-VariableFont_wght.woff2) format('woff2');
+}

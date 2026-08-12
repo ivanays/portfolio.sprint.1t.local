@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>work7_4</title>
+    <link rel="stylesheet" href="css/style.css">
+    <script src="https://www.gstatic.com/firebasejs/9.12.1/firebase-app-compat.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/9.12.1/firebase-firestore-compat.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/9.12.1/firebase-auth-compat.js"></script>
+    <script type="module" src="js_mvc/app.js"></script>
+</head>
+
+<body>
+    <div class="wrapper">
+        <section class="pet">
+            <a class="pet__exit button" href="login.html" id="exit">Выйти</a>
+            <div class="pet__inner">
+                <div class="pet__content">
+                    <h1 class="pet__title title">Pet DOC</h1>
+                    <form class="pet__form form" id="task-form">
+                        <h2 class="form__title title">Расписание</h2>
+                        <ul class="form__list">
+                            <li class="form__item item">
+                                <label class="form__label" for="time">Время</label>
+                                <input class="form__input" type="time" id="time">
+                            </li>
+                            <li class="form__item item">
+                                <label class="form__label" for="task">Задача</label>
+                                <input class="form__input" type="text" id="task" required>
+                            </li>
+                            <li class="form__item form__item-center item">
+                                <button class="form__button button" type="submit" id="add-task">Добавить</button>
+                            </li>
+                        </ul>
+                    </form>
+                    <div class="pet__tasks">
+                        <ul class="pet__container" id="pet-container">
+
+                        </ul>
+                        <div class="pet__buttons">
+                            <button class="pet__button button filterHandler" type="button" id="all-task"data-status="all" >Все</button>
+                            <button class="pet__button button filterHandler" data-status="open" type="button" id="perform-task" >Выполнить</button>
+                            <button class="pet__button button filterHandler" data-status="completed" type="button" id="finished-task" >Выполнено</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </div>
+
+</body>
+
+</html>
